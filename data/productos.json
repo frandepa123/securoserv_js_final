@@ -1,0 +1,67 @@
+[
+  {
+    "id": "kit-cctv-4",
+    "name": "Kit CCTV 4 cámaras",
+    "price": 34900,
+    "priceDisplay": "$34.900",
+    "description": "Sistema completo para cobertura integral de áreas críticas.",
+    "image": "https://dummyimage.com/400x250/ffffff/000000.png&text=Kit+CCTV+4",
+    "features": [
+      "4 cámaras HD",
+      "Grabación 7 días en disco duro",
+      "Acceso remoto por app"
+    ]
+  },
+  {
+    "id": "camara-ip-1080",
+    "name": "Cámara IP 1080p",
+    "price": 14900,
+    "priceDisplay": "$14.900",
+    "description": "Cámara de alta definición con visión nocturna y detección de movimiento.",
+    "image": "https://dummyimage.com/400x250/ffffff/000000.png&text=C%C3%A1mara+IP+1080p",
+    "features": [
+      "Resolución Full HD",
+      "Visión nocturna infrarroja",
+      "Notificaciones al celular"
+    ]
+  },
+  {
+    "id": "sensor-movimiento",
+    "name": "Sensor de movimiento",
+    "price": 6900,
+    "priceDisplay": "$6.900",
+    "description": "Sensor inalámbrico para detección de intrusos y zonas protegidas.",
+    "image": "https://dummyimage.com/400x250/ffffff/000000.png&text=Sensor+Movimiento",
+    "features": [
+      "Alcance 12 metros",
+      "Batería de larga duración",
+      "Integración con alarmas"
+    ]
+  },
+  {
+    "id": "videoportero",
+    "name": "Videoportero inteligente",
+    "price": 19900,
+    "priceDisplay": "$19.900",
+    "description": "Control de acceso con pantalla, cámara y comunicación bidireccional.",
+    "image": "https://dummyimage.com/400x250/ffffff/000000.png&text=Videoportero+Inteligente",
+    "features": [
+      "Pantalla táctil",
+      "Conexión Wi-Fi",
+      "Acceso remoto desde app"
+    ]
+  },
+  {
+    "id": "combo-seguridad",
+    "name": "Combo Seguridad Total",
+    "price": 65900,
+    "priceDisplay": "$65.900",
+    "description": "Paquete completo con cámaras, sensores y central de alarma.",
+    "image": "https://dummyimage.com/400x250/ffffff/000000.png&text=Combo+Seguridad+Total",
+    "features": [
+      "Kit CCTV + sensores",
+      "Videoportero incluido",
+      "Instalación inicial"
+    ]
+  }
+]

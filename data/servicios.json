@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "🛡️",
+    "title": "Monitoreo 24/7",
+    "description": "Vigilancia continua con alertas en tiempo real y respuesta inmediata.",
+    "details": "Incluye instalación, mantenimiento y supervisión remota de todos los dispositivos." 
+  },
+  {
+    "icon": "📹",
+    "title": "Cámaras de seguridad",
+    "description": "Sistemas CCTV de alta definición para interior y exterior.",
+    "details": "Cámaras con visión nocturna y grabación en la nube para mayor protección." 
+  },
+  {
+    "icon": "🔒",
+    "title": "Control de accesos",
+    "description": "Gestión segura de entradas y salidas con credenciales electrónicas.",
+    "details": "Soluciones personalizadas para oficinas, fábricas y residencias privadas." 
+  },
+  {
+    "icon": "⚡",
+    "title": "Alarmas inteligentes",
+    "description": "Sistemas antirrobo y de detección con notificaciones SMS/WhatsApp.",
+    "details": "Integración con aplicaciones móviles para manejo sencillo desde tu celular." 
+  }
+]

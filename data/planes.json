@@ -1,0 +1,50 @@
+[
+  {
+    "id": "basico",
+    "name": "Plan Básico",
+    "price": 5500,
+    "priceDisplay": "$5.500/mes",
+    "description": "Monitoreo esencial para pequeñas oficinas y comercios.",
+    "features": [
+      "Monitoreo 24/7",
+      "Alertas por aplicación móvil",
+      "Configuración remota"
+    ]
+  },
+  {
+    "id": "profesional",
+    "name": "Plan Profesional",
+    "price": 13500,
+    "priceDisplay": "$13.500/mes",
+    "description": "Incluye instalación y visitas técnicas periódicas.",
+    "features": [
+      "Instalación incluida",
+      "Mantenimiento mensual",
+      "Soporte básico"
+    ]
+  },
+  {
+    "id": "corporativo",
+    "name": "Plan Corporativo",
+    "price": 34500,
+    "priceDisplay": "$34.500/mes",
+    "description": "Soluciones personalizadas con soporte prioritario.",
+    "features": [
+      "Auditoría de seguridad",
+      "Soporte prioritario",
+      "Actualizaciones tecnológicas"
+    ]
+  },
+  {
+    "id": "premium",
+    "name": "Plan Premium",
+    "price": 64900,
+    "priceDisplay": "$64.900/mes",
+    "description": "Todo incluido, equipo dedicado y mantenimiento avanzado.",
+    "features": [
+      "Equipo dedicado",
+      "Actualizaciones automáticas",
+      "Garantía extendida"
+    ]
+  }
+]
