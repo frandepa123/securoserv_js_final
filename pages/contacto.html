@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contáctanos en Securoserv para consultas y cotizaciones. Estamos aquí para ayudarte con soluciones de seguridad integral.">
+    <meta name="keywords" content="Seguridad, Vigilancia, Sistemas Electrónicos, Consultoría, Protección, Servicios de Seguridad, Seguridad Empresarial, Seguridad Residencial">
+    <meta name="author" content="Francesco Depaolini">
+    <title>Contacto - Securoserv</title>
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-top container">
+            <div class="brand">
+                <h1>Securoserv <img src="../img/logo.webp" alt="Logo" class="logo"></h1>
+            </div>
+            <div class="header-actions">
+                <button id="login-toggle" class="btn-login" aria-expanded="false" aria-controls="login-panel">Iniciar
+                    sesión</button>
+            </div>
+        </div>
+
+        <div class="contenedor">
+            <input type="checkbox" id="toggle-menu">
+            <label for="toggle-menu" class="pestaña">Navegación</label>
+            <div class="contenido">
+                <nav>
+                    <a href="servicios.html" class="active">Servicios</a>
+                    <a href="Planes.html">Planes</a>
+                    <a href="tienda.html">Tienda</a>
+                    <a href="nosotros.html">Quienes Somos</a>
+                    <a href="coperamos.html">Con Quién Trabajamos</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="../index.html">Principal</a>
+                </nav>
+            </div>
+        </div>
+
+        <div id="login-panel" class="login-panel" aria-hidden="true">
+            <form id="login-form" class="login-form" action="#" method="post">
+                <h3>Inicia sesión</h3>
+                <p class="login-info">Usuario: admin • Contraseña: admin123</p>
+                <label for="user">Usuario</label>
+                <input id="user" name="user" type="text" placeholder="admin" required>
+                <label for="pass">Contraseña</label>
+                <input id="pass" name="pass" type="password" placeholder="admin123" required>
+                <button type="submit" class="large">Entrar</button>
+                <button type="button" id="logout-button" class="secondary hidden">Cerrar sesión</button>
+                <p class="small">¿No tienes cuenta? <a href="#">Regístrate</a></p>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero fade-in">
+            <h2>Contacto</h2>
+            <p>Estamos disponibles para consultas y cotizaciones. Complete el formulario o use los datos de contacto.
+            </p>
+        </section>
+
+        <section class="contact-section slide-up">
+            <div class="section-title">
+                <h3>Escríbanos y déjenos una reseña</h3>
+            </div>
+            <div class="contact-forms-container">
+                <form class="card contact-form" action="#" method="post">
+                    <h4>Consulta</h4>
+                    <label for="name">Nombre</label>
+                    <input id="name" name="name" type="text" required>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit" class="btn-primary">Enviar</button>
+                </form>
+
+                <form class="card review-form" action="#" method="post">
+                    <h4>Dejar una reseña</h4>
+
+                    <div class="star-rating-section">
+                        <label>Calificación</label>
+                        <div class="star-rating">
+                            <input type="radio" id="star5" name="rating" value="5">
+                            <label for="star5" class="star-label">★</label>
+                            <input type="radio" id="star4" name="rating" value="4">
+                            <label for="star4" class="star-label">★</label>
+                            <input type="radio" id="star3" name="rating" value="3">
+                            <label for="star3" class="star-label">★</label>
+                            <input type="radio" id="star2" name="rating" value="2">
+                            <label for="star2" class="star-label">★</label>
+                            <input type="radio" id="star1" name="rating" value="1">
+                            <label for="star1" class="star-label">★</label>
+                        </div>
+                    </div>
+
+                    <label for="review-name">Nombre</label>
+                    <input id="review-name" name="review-name" type="text" required>
+
+                    <label for="review-email">Email</label>
+                    <input id="review-email" name="review-email" type="email" required>
+
+                    <label for="review-text">Mensaje</label>
+                    <textarea id="review-text" name="review-text" rows="3" placeholder="Comparte tu experiencia..."
+                        required></textarea>
+
+                    <button type="submit" class="btn-primary">Enviar reseña</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="info-contacto slide-up">
+            <div class="section-title">
+                <h3>Horario y canales</h3>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <strong>Horario de atención</strong>
+                    <p>Lunes a viernes: 9:00 - 18:00</p>
+                    <p>Teléfono: +54 9 11 1234 5678</p>
+                </div>
+                <div class="card">
+                    <strong>Redes Sociales</strong>
+                    <p><a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a> • <a
+                            href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a> • <a
+                            href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a></p>
+                </div>
+                <div class="card">
+                    <strong>Dirección</strong>
+                    <p>Av. Seguridad 123, Buenos Aires, Argentina</p>
+                    <p>CP: 1000</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="dynamic-services slide-up">
+            <div class="section-title">
+                <h3>Servicios destacados</h3>
+            </div>
+            <div id="service-cards" class="cards"></div>
+        </section>
+
+        <section class="faq-section slide-up">
+            <div class="section-title">
+                <h3>Preguntas Frecuentes</h3>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Cuál es el tiempo de respuesta?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Respondemos todas las consultas dentro de 24 horas hábiles. Para urgencias, contáctanos por
+                            teléfono o WhatsApp.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Ofrecen consultoría gratuita?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, realizamos una evaluación inicial sin costo donde analizamos tus necesidades de seguridad
+                            y proponemos soluciones personalizadas.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Qué formas de pago aceptan?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Aceptamos transferencia bancaria, tarjeta de crédito, débito y contado. Ofrecemos planes de
+                            financiación a medida.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Realizan monitoreo 24/7?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, contamos con central de monitoreo activa 24/7/365. Nuestro equipo responde inmediatamente
+                            ante cualquier incidente.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Cuál es el período mínimo de contrato?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ofrecemos contratos flexibles desde 3 meses. Sin embargo, recomendamos un período mínimo de
+                            12 meses para mejor servicio.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Atienden empresas y residencias?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, contamos con soluciones especializadas tanto para empresas, comercios, como para
+                            residencias y complejos privados.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Incluye instalación el servicio?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, incluimos instalación, configuración y capacitación en el manejo de los sistemas. Todo
+                            sin costo adicional.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Qué sucede si hay una falla?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Contamos con soporte técnico 24/7. Ante cualquier falla, nuestro equipo se desplaza en máximo
+                            2 horas.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Puedo cancelar en cualquier momento?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Según el contrato, puedes cancelar respetando los términos acordados. Asesoramos sobre las
+                            opciones disponibles.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="guarantees fade-in">
+            <h3>Nuestras garantías y compromisos</h3>
+            <div class="guarantees-list">
+                <div class="guarantee-item">
+                    <h4>✓ Respuesta en 2 horas</h4>
+                    <p>Ante cualquier incidencia, nuestro equipo se desplaza en máximo 2 horas durante todo el año.</p>
+                </div>
+                <div class="guarantee-item">
+                    <h4>✓ Satisfacción garantizada</h4>
+                    <p>Si no quedas conforme en los primeros 30 días, te devolvemos tu dinero sin preguntas.</p>
+                </div>
+                <div class="guarantee-item">
+                    <h4>✓ Monitoreo 24/7 continuo</h4>
+                    <p>Centro de control operativo todos los días del año, sin excepciones ni aumentos ocultos.</p>
+                </div>
+                <div class="guarantee-item">
+                    <h4>✓ Equipamiento certificado</h4>
+                    <p>Todos nuestros sistemas cumplen normas internacionales ISO y certificaciones de seguridad.</p>
+                </div>
+                <div class="guarantee-item">
+                    <h4>✓ Privacidad protegida</h4>
+                    <p>Tus datos están 100% asegurados con encriptación de nivel empresarial.</p>
+                </div>
+                <div class="guarantee-item">
+                    <h4>✓ Soporte técnico experto</h4>
+                    <p>Equipo certificado disponible para consultas, mantenimiento y actualizaciones de sistemas.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Securoserv. Todos los derechos reservados.</p>
+    </footer>
+
+    <a href="https://wa.me/5491112345678" target="_blank" class="whatsapp-button" aria-label="Contactar por WhatsApp">📱
+        WhatsApp</a>
+    <button id="back-to-top" class="back-to-top" aria-label="Volver arriba">↑</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.7/dayjs.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

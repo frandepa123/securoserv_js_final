@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Servicios de seguridad profesional ofrecidos por Securoserv, incluyendo vigilancia, sistemas CCTV, monitoreo y más.">
+  <meta name="keywords" content="Seguridad, Vigilancia, Sistemas Electrónicos, Consultoría, Protección, Servicios de Seguridad, Seguridad Empresarial, Seguridad Residencial">
+  <meta name="author" content="Francesco Depaolini">
+  <title>Planes - Securoserv</title>
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header-top container">
+      <div class="brand">
+        <h1>Securoserv <img src="../img/logo.webp" alt="Logo" class="logo"></h1>
+      </div>
+      <div class="header-actions">
+        <button id="login-toggle" class="btn-login" aria-expanded="false" aria-controls="login-panel">Iniciar
+          sesión</button>
+      </div>
+    </div>
+
+    <div class="contenedor">
+      <input type="checkbox" id="toggle-menu">
+      <label for="toggle-menu" class="pestaña">Navegación</label>
+      <div class="contenido">
+        <nav>
+          <a href="servicios.html" class="active">Servicios</a>
+          <a href="planes.html">Planes</a>
+          <a href="tienda.html">Tienda</a>
+          <a href="nosotros.html">Quienes Somos</a>
+          <a href="coperamos.html">Con Quién Trabajamos</a>
+          <a href="contacto.html">Contacto</a>
+          <a href="../index.html">Principal</a>
+        </nav>
+      </div>
+    </div>
+
+    <div id="login-panel" class="login-panel" aria-hidden="true">
+      <form id="login-form" class="login-form" action="#" method="post">
+        <h3>Inicia sesión</h3>
+        <p class="login-info">Usuario: admin • Contraseña: admin123</p>
+        <label for="user">Usuario</label>
+        <input id="user" name="user" type="text" placeholder="admin" required>
+        <label for="pass">Contraseña</label>
+        <input id="pass" name="pass" type="password" placeholder="admin123" required>
+        <button type="submit" class="large">Entrar</button>
+        <button type="button" id="logout-button" class="secondary hidden">Cerrar sesión</button>
+        <p class="small">¿No tienes cuenta? <a href="#">Regístrate</a></p>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero fade-in">
+      <h2>Planes y suscripciones</h2>
+      <p>Elija el plan que mejor se adapte a sus necesidades: desde seguimiento básico hasta soluciones completas para
+        empresas.</p>
+    </section>
+
+    <section class="planes slide-up">
+      <div class="section-title">
+        <h3>Elige tu plan</h3>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h4>Plan Básico</h4>
+          <p><strong>$12.000/mes</strong></p>
+        </article>
+        <article class="card">
+          <h4>Plan Profesional</h4>
+          <p><strong>$29.000/mes</strong></p>
+        </article>
+        <article class="card">
+          <h4>Plan Corporativo</h4>
+          <p><strong>$59.000/mes</strong></p>
+        </article>
+        <article class="card">
+          <h4>Plan Premium</h4>
+          <p><strong>$99.000/mes</strong></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="comparativa slide-up">
+      <div class="section-title">
+        <h3>Comparativa detallada</h3>
+      </div>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Características</th>
+              <th>Básico</th>
+              <th>Profesional</th>
+              <th>Corporativo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monitoreo 24/7</td>
+              <td>Sí</td>
+              <td>Sí</td>
+              <td>Sí</td>
+            </tr>
+            <tr>
+              <td>Instalación</td>
+              <td>No</td>
+              <td>Sí</td>
+              <td>Sí (a medida)</td>
+            </tr>
+            <tr>
+              <td>Visitas técnicas</td>
+              <td>—</td>
+              <td>Mensuales</td>
+              <td>Semanal/según contrato</td>
+            </tr>
+            <tr>
+              <td>Soporte prioritario</td>
+              <td>No</td>
+              <td>No</td>
+              <td>Sí</td>
+            </tr>
+            <tr>
+              <td>Actualizaciones</td>
+              <td>No</td>
+              <td>No</td>
+              <td>Sí</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="faq slide-up">
+      <div class="section-title">
+        <h3>Preguntas frecuentes sobre planes</h3>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h4>¿Hay contrato mínimo?</h4>
+          <p>Dependiendo del plan, el contrato puede ser mensual o anual. Consulte condiciones al solicitar la
+            cotización.</p>
+        </article>
+        <article class="card">
+          <h4>¿Puedo cambiar de plan?</h4>
+          <p>Sí, la migración entre planes se coordina con nuestro equipo y se factura proporcionalmente.</p>
+        </article>
+        <article class="card">
+          <h4>¿Hay descuentos por pago anual?</h4>
+          <p>Sí, ofrecemos un 10% de descuento en planes pagados anualmente.</p>
+        </article>
+        <article class="card">
+          <h4>¿Qué pasa si cancelo?</h4>
+          <p>Puedes cancelar en cualquier momento, sin penalizaciones después del período mínimo.</p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Securoserv. Todos los derechos reservados.</p>
+  </footer>
+
+  <a href="https://wa.me/5491112345678" target="_blank" class="whatsapp-button" aria-label="Contactar por WhatsApp">📱
+    WhatsApp</a>
+  <button id="back-to-top" class="back-to-top" aria-label="Volver arriba">↑</button>
+
+  <script src="../js/main.js"></script>
+</body>
+
+</html>

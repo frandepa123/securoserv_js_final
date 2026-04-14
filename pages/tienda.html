@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tienda de seguridad Securoserv: cámaras, kits CCTV, sensores y videoporteros para proteger tu empresa o vivienda.">
+  <meta name="keywords" content="Tienda seguridad, cámaras CCTV, sensor de movimiento, videoportero, compra seguridad">
+  <meta name="author" content="Francesco Depaolini">
+  <title>Tienda - Securoserv</title>
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header-top container">
+      <div class="brand">
+        <h1>Securoserv <img src="../img/logo.webp" alt="Logo" class="logo"></h1>
+      </div>
+      <div class="header-actions">
+        <button id="login-toggle" class="btn-login" aria-expanded="false" aria-controls="login-panel">Iniciar sesión</button>
+      </div>
+    </div>
+
+    <div class="contenedor">
+      <input type="checkbox" id="toggle-menu">
+      <label for="toggle-menu" class="pestaña">Navegación</label>
+      <div class="contenido">
+        <nav>
+          <a href="servicios.html">Servicios</a>
+          <a href="planes.html">Planes</a>
+          <a href="tienda.html">Tienda</a>
+          <a href="nosotros.html">Quienes Somos</a>
+          <a href="coperamos.html">Con Quién Trabajamos</a>
+          <a href="contacto.html">Contacto</a>
+          <a href="../index.html">Principal</a>
+        </nav>
+      </div>
+    </div>
+
+    <div id="login-panel" class="login-panel" aria-hidden="true">
+      <form id="login-form" class="login-form" action="#" method="post">
+        <h3>Inicia sesión</h3>
+        <p class="login-info">Usuario: admin • Contraseña: admin123</p>
+        <label for="user">Usuario</label>
+        <input id="user" name="user" type="text" placeholder="admin" required>
+        <label for="pass">Contraseña</label>
+        <input id="pass" name="pass" type="password" placeholder="admin123" required>
+        <button type="submit" class="large">Entrar</button>
+        <button type="button" id="logout-button" class="secondary hidden">Cerrar sesión</button>
+        <p class="small">¿No tienes cuenta? <a href="#">Regístrate</a></p>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero fade-in">
+      <h2>Tienda de seguridad</h2>
+      <p>Compra cámaras, kits de vigilancia y accesorios para mejorar la seguridad de tu instalación.</p>
+    </section>
+
+    <section class="shop-products slide-up">
+      <div class="section-title">
+        <h3>Productos disponibles</h3>
+      </div>
+      <div class="shop-layout">
+        <div id="product-list" class="cards"></div>
+        <aside class="card cart-widget">
+          <h4>Tu carrito</h4>
+          <div id="cart-widget-summary" class="cart-summary"></div>
+          <div id="cart-widget-items" class="cart-widget-items"></div>
+          <button id="checkout-button" class="btn-primary">Pagar ahora</button>
+        </aside>
+      </div>
+    </section>
+
+    <div id="payment-panel" class="payment-panel hidden">
+      <button id="close-payment-panel" class="close-button">&times;</button>
+      <h4>Pago con tarjeta</h4>
+      <label for="card-number">Número de tarjeta</label>
+      <input id="card-number" type="text" placeholder="0000 0000 0000 0000">
+      <label for="card-name">Nombre en la tarjeta</label>
+      <input id="card-name" type="text" placeholder="Nombre completo">
+      <label for="expiry-date">Fecha de vencimiento</label>
+      <input id="expiry-date" type="text" placeholder="MM/AA">
+      <label for="cvv">CVV</label>
+      <input id="cvv" type="password" placeholder="123">
+      <button id="process-payment-button" type="button" class="btn-primary">Procesar pago</button>
+      <button id="pay-without-card-button" type="button" class="btn-outline">Pagar sin tarjeta</button>
+    </div>
+
+    <section id="shop-plans" class="shop-plans slide-up">
+      <div class="section-title">
+        <h3>Planes disponibles</h3>
+      </div>
+      <div id="plan-selection" class="plan-options"></div>
+      <p class="small">Solo puedes elegir un plan a la vez.</p>
+      <div id="selected-plan-summary" class="selected-plan-summary"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Securoserv. Todos los derechos reservados.</p>
+  </footer>
+
+  <a href="https://wa.me/5491112345678" target="_blank" class="whatsapp-button" aria-label="Contactar por WhatsApp">📱 WhatsApp</a>
+  <button id="back-to-top" class="back-to-top" aria-label="Volver arriba">↑</button>
+
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
